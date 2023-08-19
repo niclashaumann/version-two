@@ -1,0 +1,26 @@
+.footer {
+  text-align: right;
+  padding: 24px;
+  font-size: 14px;
+  max-width: 1440px;
+  margin: auto;
+}
+
+@media (min-width: 768px) and (max-width: 1439px) {
+  .footer {
+    padding: 32px;
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .footer {
+    padding: 40px;
+    font-size: 18px;
+  }
+}
+
+.footer-text {
+  color: rgb(255, 250, 0);
+}
+

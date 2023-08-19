@@ -1,0 +1,26 @@
+.wrapper-contact {
+  min-height:100%; 
+  height: calc(100vh - 60px - 48px - 68px);
+  width:100%;
+}
+
+.text-wrapper-contact {
+  padding: 60px 24px 0px 24px;
+}
+
+.phone-contact {
+  width: 100%;
+}
+
+.title-contact {
+  font-size: 16px;
+  font-family: Regular;
+  padding: 60px 1px 0px 0px;
+}
+
+.experience-contact {
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
