@@ -11,10 +11,10 @@ export default function Contact() {
       </div>
       <div className="wrapper-contact">
         <div className="text-wrapper-contact">
-          <div>
+          <div className="gif-contact">
             <img src={Phone} className="phone-contact" alt="Phone" />
           </div>
-          <div>
+          <div className="experience-wrapper-contact">
             <div className="experience-contact">
               <p className="title-contact">Contact</p>
               <p className="title-contact">Social</p>
