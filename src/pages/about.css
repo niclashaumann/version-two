@@ -28,7 +28,7 @@
 
 @media (min-width: 768px) and (max-width: 1439px) {
   .text-about {
-    max-width: 300px;
+    max-width: 350px;
     margin-left: auto;
   }
 }
