@@ -1,0 +1,26 @@
+.wrapper-error {
+  min-height: 100%;
+  height: calc(100vh - 98px - 68px);
+  max-width: 1440px;
+  margin: auto;
+}
+
+@media (min-width: 768px) and (max-width: 1439px) {
+  .wrapper-error {
+    height: calc(100vh - 124px - 85px);
+  }
+}
+
+@media (min-width: 1440px)  {
+  .wrapper-error {
+    height: calc(100vh - 150px - 106px);
+  }
+}
+
+.error-nopage {
+  width: 75%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
