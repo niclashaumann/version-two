@@ -14,9 +14,17 @@ export default function About() {
             <p>Passioned project manager. Born and bred in Copenhagen.</p>
             <br></br>
             <p>
-              Currently working at NoA Ignite, where I, together with some of
-              the greatest creative and technical people in the business, help
-              companies build meaningful and distinctive digital experiences.
+              Currently working at{" "}
+              <a
+                href="https://www.noaignite.dk"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                NoA Ignite
+              </a>
+              , where I, together with some of the greatest creative and
+              technical people in the business, help companies build meaningful
+              and distinctive digital experiences.
             </p>
           </div>
           <div className="wrapper-experience-about">
