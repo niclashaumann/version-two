@@ -49,8 +49,3 @@ a {
   color: white;
   cursor: pointer;
 }
-
-a:focus,
-a:active {
-  color: rgb(255, 250, 0);
-}
