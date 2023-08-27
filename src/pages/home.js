@@ -8,9 +8,9 @@ export default function Home() {
   return (
     <div>
       <Helmet>
-        <title>Niclas Haumann - Home</title>
+        <title>Niclas Haumann</title>
         <meta charSet="utf-8" />
-        <meta name="description" content="Niclas Haumann - Home" />
+        <meta name="description" content="Niclas Haumann" />
       </Helmet>
       <div>
         <Header />
