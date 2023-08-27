@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet";
 import "./about.css";
 import Header from "../components/header";
 import Footer from "../components/footer";
@@ -5,6 +6,11 @@ import Footer from "../components/footer";
 export default function About() {
   return (
     <div>
+      <Helmet>
+        <title>Niclas Haumann - About</title>
+        <meta charSet="utf-8" />
+        <meta name="description" content="Niclas Haumann - About" />
+      </Helmet>
       <div>
         <Header />
       </div>

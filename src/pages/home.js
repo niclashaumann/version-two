@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet";
 import "./home.css";
 import Header from "../components/header";
 import Footer from "../components/footer";
@@ -6,6 +7,11 @@ import Heart from "../assets/gta-heart.png";
 export default function Home() {
   return (
     <div>
+      <Helmet>
+        <title>Niclas Haumann - Home</title>
+        <meta charSet="utf-8" />
+        <meta name="description" content="Niclas Haumann - Home" />
+      </Helmet>
       <div>
         <Header />
       </div>

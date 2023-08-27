@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet";
 import "./contact.css";
 import Header from "../components/header";
 import Footer from "../components/footer";
@@ -6,6 +7,11 @@ import Phone from "../assets/phone.gif";
 export default function Contact() {
   return (
     <div>
+      <Helmet>
+        <title>Niclas Haumann - Contact</title>
+        <meta charSet="utf-8" />
+        <meta name="description" content="Niclas Haumann - Contact" />
+      </Helmet>
       <div>
         <Header />
       </div>

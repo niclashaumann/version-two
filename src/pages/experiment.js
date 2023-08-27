@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet";
 import "./experiment.css";
 import Header from "../components/header";
 import Footer from "../components/footer";
@@ -7,6 +8,11 @@ import Smile from "../assets/smile.gif";
 export default function Experiment() {
   return (
     <div>
+      <Helmet>
+        <title>Niclas Haumann - Experiment</title>
+        <meta charSet="utf-8" />
+        <meta name="description" content="Niclas Haumann - Experiment" />
+      </Helmet>
       <div>
         <Header />
       </div>
